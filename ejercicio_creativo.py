@@ -48,7 +48,7 @@ elif bateria <= 5 and bateria > 0:
     print("  |______________________________________|")
 else:
     print("   ______________________________________")
-    print(f"  |🔋{bateria}%⚡  ...Apagando el dispositivo    |")
+    print(f"  |🔋{bateria}%⚡  ...Apagando el dispositivo... |")
     print("  |______________________________________|")
     print("  |                                      |")
     print("  |             Apagando...              |")
