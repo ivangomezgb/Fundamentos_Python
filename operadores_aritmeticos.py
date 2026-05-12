@@ -1,9 +1,5 @@
 
 # Operadores aritméticos #
-
-from math import pi
-
-
 a = 5
 b = 2
 
@@ -49,16 +45,16 @@ print(f"El resultado6 de la operacion {a} + {b} * 4 es : {resultado_6}")
 
 
 #Librerias de Matematicas
-
 import math
 
-print(math.pi)
+print(math.pi)# numero pi
 print(math.e)
 print(math.sqrt(16))
 
 
+#librerias de numeros aletorios
 import random 
 
 random.random()
-numero_ale=random.randint(1, 100)
+numero_ale = random.randint(1, 100)#rango predefinido del 1 al 100
 print(numero_ale)

@@ -1,9 +1,5 @@
 #CONDICIONAL IF / ELSE / ELIF
 
-from asyncio import Condition
-from stringprep import in_table_c12
-
-
 if False:
     print("La primera condicion es verdadera")
 elif False:
