@@ -1,0 +1,44 @@
+lista_temperatura = [18, 21, 19, 24, 22, 20, 17, 23, 25, 21, 18, 20, 22, 19]
+print("La temperatura del primer dia es:", lista_temperatura[0])
+print("=" *55)
+
+print("La temperatura del ultimo dia es:", lista_temperatura[13])
+print("=" *55)
+
+print("La temperatura del 7 (mitad) es :", lista_temperatura[-8])
+print("=" *55)
+
+print("La temperatura del penultimo dia es :", lista_temperatura[-14])
+
+
+#2 Usa slicing para extraer e imprimir:
+
+print("=" *55)
+print("La primera semana(1-7) es:", lista_temperatura[1:7:2])
+print("=" *55)
+
+print("La segunda semana(8-14) es:", lista_temperatura[8:14:2])
+
+print("=" *55)
+
+#temperatura invertida
+lista_temperatura.reverse()
+print("La temperatura invertida es :", lista_temperatura)
+
+
+print("=" *55)
+
+# sum() e len() temperatura promedio
+
+
+promedio_semana1 = sum(lista_temperatura[0:7]) / len(lista_temperatura[0:7])
+promedio_semana2 = sum(lista_temperatura[7:14]) / len(lista_temperatura[7:14])
+
+print(f"El promedio de cada semana 1 es {round(promedio_semana1)} , y la semana 2 es : {round(promedio_semana2)}")
+
+print("=" *55)
+
+
+#Bonus : temperatura mas alta entre las dos semanas y mos tratar el resultado con un mensaje descrriptivo
+temperatura_mas_alta = max(lista_temperatura)
+print(f"La temperatura mas alta entre las dos semanas es de {temperatura_mas_alta} grados lo que indica un clima caluroso en esta semana")
