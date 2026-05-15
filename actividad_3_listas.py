@@ -1,8 +1,4 @@
 
-
-from operator import pos
-
-
 lista_canciones = ["Choque","Pal agua","Gasolina","Dile","Candy"]
 lista_nueva = ["BonusTrack 1", "Bonus Track 2"]
 
@@ -62,5 +58,5 @@ print("=" *55)
 
 #Cuantas veces aparece el string 'Bonus Track 1'
 
-veces_bonus = lista_canciones.count("Bonus Track 1")
-print(f"El string 'Bonus Track 1' aparece {veces_bonus} veces en la lista")
+veces_bonus_track1 = lista_canciones.count("Bonus Track 1")
+print(f"El string 'Bonus Track 1' aparece {veces_bonus_track1} veces en la lista")
