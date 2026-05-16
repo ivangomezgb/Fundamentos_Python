@@ -1,3 +1,6 @@
+from typing import Iterable
+
+
 a,b,c = map(int, input("Ingrese").split())
 
 print(a,b,c)
@@ -41,3 +44,13 @@ else:
     while intentos < 5:
         if numero == 42:
             print("Hola")
+            
+            
+# EJERCICIO 
+numeros = [10,20,30,40,50]
+resultado = numeros[::-1]
+print(resultado)
+
+# Ejerccio
+tupla7 = tuple()
+print(tupla7)
