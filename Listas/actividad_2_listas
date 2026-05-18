@@ -1,4 +1,5 @@
 lista_temperatura = [18, 21, 19, 24, 22, 20, 17, 23, 25, 21, 18, 20, 22, 19]
+
 print("La temperatura del primer dia es:", lista_temperatura[0])
 print("=" *55)
 
