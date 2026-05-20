@@ -48,10 +48,11 @@ print("="*100)
 calcular_promedio = Diccionario_grupo.items()
 for aprendiz, datos in calcular_promedio:
     nombre = datos["nombre"]
+    edad = datos["edad"]
     notas = datos["notas"]
     promedio = sum(notas) / len(notas)
     estado = "Aprobado" if promedio >= 3.0 else "Reprobado"
-    print(f"El aprendiz {nombre} tiene un promedio de {promedio} y el estado es {estado}")
+    print(f"El aprendiz {nombre} de {edad} años tiene un promedio de {promedio} y el estado es {estado}")
 
 print("="*100)
 

@@ -54,3 +54,18 @@ print(resultado)
 # Ejerccio
 tupla7 = tuple()
 print(tupla7)
+
+#Ejercicio 
+
+crush = "Python"
+print(crush * 2)
+
+#Ejercicio
+a = [1,2,3]
+print(a * 2)
+
+
+#Ejercicio
+puntuacion = 10
+if puntuacion > 5:
+    print("Ganaste")

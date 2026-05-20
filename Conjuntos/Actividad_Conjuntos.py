@@ -66,4 +66,4 @@ print("="*100)
 # Usamos la INTERSECCIÓN (&) que encuentra solo los elementos que se repiten en TODOS los conjuntos
 en_los_tres = programa_SST.intersection(programa_ADSO, programa_TOPOGRAFIA)
 
-print(f"Aprendices matriculados en los tres programas a la vez: {en_los_tres}")
+print(f"Aprendices matriculados en los tres programas a la vez: {en_los_tres}")  # {'Ana', 'Luis'} 

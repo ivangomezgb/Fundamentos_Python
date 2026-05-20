@@ -110,3 +110,5 @@ for aprendiz, datos in aprendices.items():
     print(f"{aprendiz}")
     for clave,valor in datos.items():
         print(f" {clave} : {valor}")
+        
+        

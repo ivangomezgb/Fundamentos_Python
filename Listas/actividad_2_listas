@@ -30,8 +30,6 @@ print("La temperatura invertida es :", lista_temperatura)
 print("=" *55)
 
 # sum() e len() temperatura promedio
-
-
 promedio_semana1 = sum(lista_temperatura[0:7]) / len(lista_temperatura[0:7])
 promedio_semana2 = sum(lista_temperatura[7:14]) / len(lista_temperatura[7:14])
 
@@ -40,6 +38,6 @@ print(f"El promedio de cada semana 1 es {round(promedio_semana1)} , y la semana 
 print("=" *55)
 
 
-#Bonus : temperatura mas alta entre las dos semanas y mos tratar el resultado con un mensaje descrriptivo
+#Bonus :  temperatura mas alta entre las dos semanas y mos tratar el resultado con un mensaje descriptivo
 temperatura_mas_alta = max(lista_temperatura)
 print(f"La temperatura mas alta entre las dos semanas es de {temperatura_mas_alta} grados lo que indica un clima caluroso en esta semana")
